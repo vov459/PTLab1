@@ -34,7 +34,7 @@ def main():
     rating = AvarageMark(students).calc()
 
     for i in rating:
-        if rating.get(i) ==2:
+        if rating.get(i) == 2:
             print("Student: ", i)
             break
         else:
