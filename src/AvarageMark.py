@@ -19,6 +19,3 @@ class AvarageMark():
                     if subject[1] >= 90:
                         self.rating[key] += 1
             return self.rating
-
-
-

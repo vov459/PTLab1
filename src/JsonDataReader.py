@@ -2,7 +2,6 @@ import json
 from Types import DataType
 from DataReader import DataReader
 
-
 class JsondataReader(DataReader):
 
     def __init__(self) -> None:
